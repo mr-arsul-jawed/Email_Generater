@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Email Writer Assistant",
+  "version": "1.0",
+  "description": "Generate professional emails for any sector using AI.",
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": "public/icon.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["all_urls"],
+  "icons": {
+    "16": "public/icon-16.png",
+    "48": "public/icon-48.png",
+    "128": "public/icon-128.png"
+  }
+}
